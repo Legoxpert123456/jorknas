@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<h1 style="background-color:rgb(169, 169, 169);">
+<DIV ALIGN=CENTER>
+<P ALIGN=LEFT|CENTER|RIGHT>
+<style>
+button {
+    font-size: 23px;
+    }
+input {
+    font-size: 23px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Access</title>
+    <script>
+        function checkCode() {
+            const enteredCode = document.getElementById('code').value;
+            const correctCode = 'lachypeenaryumyum77'; // Replace with your desired 4-digit code
+            if (enteredCode === correctCode) {
+                alert('Access Granted');
+                // Redirect to the desired page
+                window.location.href = 'index2.html';
+            } else {
+                alert('Access Denied');
+            }
+        }
+    </script>
+<BR> \<BR>
+</head>
+<body>
+    <h2>Enter 4-Digit Code</h2>
+    <input type="text" id="code" maxlength="99" pattern="\d{4}" size="30;" style="width:350px;" style="height:3000px;" required>
+    <button onclick="checkCode()">ENTER</button><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+</body>
+</P>
+</DIV>
+</h1>
+</html>
